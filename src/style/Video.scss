@@ -1,0 +1,9 @@
+#video {
+  .video {
+    display: flex;
+    overflow-x: auto;
+    &--card {
+      margin: 20px 40px 20px 0;
+    }
+  }
+}

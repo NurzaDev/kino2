@@ -1,0 +1,29 @@
+@import "src/style/Header";
+@import "src/style/Home";
+@import "src/style/Popular";
+@import "src/style/TopRated";
+@import "src/style/Footer";
+@import "src/style/MovieDetails";
+@import "src/style/actors";
+@import "src/style/Video";
+@import "src/style/ActorsDetails";
+@import "src/style/Film";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

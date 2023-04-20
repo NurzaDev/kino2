@@ -1,0 +1,14 @@
+#actors {
+  .actors {
+    //display: flex;
+    //align-items: flex-start;
+    //overflow-x: auto;
+    &--card {
+      margin: 20px 20px 20px 0;
+      //text-align: center;
+      h4 {
+        margin: 10px 0;
+      }
+    }
+  }
+}

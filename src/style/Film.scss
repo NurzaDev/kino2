@@ -1,0 +1,12 @@
+#film {
+  h2 {
+    margin: 10px 0 0 0;
+  }
+  .film {
+    display: flex;
+    overflow-x: auto;
+    &--card {
+      margin: 20px 20px 20px 0;
+    }
+  }
+}

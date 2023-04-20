@@ -1,0 +1,100 @@
+#header {
+  padding: 20px 0;
+  background: #07203a;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 200px;
+      height: 80px;
+    }
+    &--nav {
+      .active {
+      color: #34cccc;
+    }
+      &__link {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        margin: 0 20px;
+      }
+    }
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      button {
+        font-size: 18px;
+        padding: 13px 20px;
+        background: linear-gradient(30deg, #2affdd, #088585);
+        color: white;
+        border-radius: 20px;
+        position: absolute;
+        left: 189px;
+      }
+      input {
+        width: 220px;
+        height: 47px;
+        border-radius: 20px;
+        outline: none;
+        font-size: 20px;
+        padding-left: 20px;
+        border: none;
+      }
+    }
+    &--info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      select {
+        width: 60px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid white;
+        outline: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        option {
+          color: black;
+          border-bottom: none;
+        }
+      }
+      select:hover {
+        background: white;
+        color: black;
+      }
+      a {
+        color: white;
+        font-size: 30px;
+        margin: 0 20px 0 20px ;
+      }
+    }
+    &--const {
+      display: flex;
+      button {
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        width: 33px;
+        height: 33px;
+        font-size: 20px;
+        margin-left: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      button:hover {
+        background: white;
+        color: black;
+      }
+    }
+  }
+}
